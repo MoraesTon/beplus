@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --secondary-color: #274156;
+    --main-bg-color: #EF2D56;
+    --sec-bg-scolor: #ED7D3A;
+}
+
+body {
+    background: linear-gradient(45deg, var(--main-bg-color), var(--sec-bg-scolor)) no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: ease 200ms;
+
+    margin-left: 1em;
+}
+
+nav a:hover {
+    color: #274156;
+}
+
+main section.icons {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem 0;
+}
+
+main section.icons .icons-card {
+    width: 20%;
+}
+
+main section.icons .icons-card img {
+    height: 100%;
+    width: 100%;
+}
+
+.products-card-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.products-card-img img {
+    width: 100%;
+}
+
+.disable {
+    display: none;
+}
+
+
+main section.icons .icons-card:hover img.enable {
+    display: none;
+}
+
+main section.icons .icons-card:hover img.disable {
+    display: block;
+}
+
+/*Contacts area*/
+
+#contacts fieldset {
+    border: 1px solid #274156;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 50vw;
+}
+#contacts form input {
+    height: 2rem;
+    margin: 1rem 0;
+}
+#contacts form input, textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
