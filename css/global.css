@@ -107,6 +107,21 @@ main section.icons .icons-card img {
     width: 100%;
 }
 
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card a {
+
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
 .disable {
     display: none;
 }
@@ -203,7 +218,7 @@ fieldset img {
     }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
     .logo img {
         display: block;
     }

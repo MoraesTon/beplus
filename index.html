@@ -6,6 +6,7 @@
     <title>bePlus + Soluções digitais</title>
     <link rel="stylesheet" href="css/global.css">
     <script src="https://kit.fontawesome.com/71238ff661.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
     <div class="container">
@@ -94,17 +95,20 @@
         </section>
 
         <section id="contacts">
-            <form action="form-to-mail.php" method="post" enctype="text/plain" name="emailform">
-                <fieldset>
-                    <legend>Envie-nos uma mensagem</legend>
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name">
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email">
-                    <label for="message:">Mensagem</label>
-                <textarea name="message" cols="30" rows="10"></textarea></fieldset>
-                <input type="submit" value="Enviar">
-            </form>
+            <h2>Contatos</h2>
+            <div class="contact-card">
+                <box-icon type='solid' name='phone' color="white"></box-icon> (+351) 915 027 049 
+                <box-icon type="logo" name="whatsapp" color="white"></box-icon>
+                
+            </div>
+            <div class="contact-card">
+                <box-icon name="envelope" color="white"></box-icon> vendas@beplusdigital.com
+            </div>
+            <div class="contact-card">
+                <a href="https://www.instagram.com/beplusdigital/">
+                <box-icon name="instagram" type="logo" color="white"></box-icon>
+                @beplusdigital</a>
+            </div>
         </section>
         
         <footer>
